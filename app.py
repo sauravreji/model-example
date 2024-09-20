@@ -5,7 +5,7 @@ from huggingface_hub import InferenceClient
 
 client = InferenceClient(
     "meta-llama/Meta-Llama-3-8B-Instruct",
-    token="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",
+    token="hxxxxxxxxxxxxxxxx",
 )
 
 def get_chat_response(prompt, max_tokens=50):
